@@ -1,0 +1,54 @@
+/* Estilos para a seção de Ranking */
+.ranking-container {
+    background-color: #1e1e1e;
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #e1e1e6;
+}
+
+table th {
+    background-color: #4863f7;
+}
+
+table td {
+    background-color: #333;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #2a2a2a;
+}
+
+table tbody tr:hover {
+    background-color: #444;
+}
+
+table tbody td {
+    color: #e1e1e6;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .ranking-container {
+        width: 90%;
+    }
+
+    table th, table td {
+        font-size: 14px;
+    }
+}
